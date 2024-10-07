@@ -53,6 +53,11 @@ body {
 .advantage{
     background: white;
   }
+
+  .email_box{
+    background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+  
+  }
   
   @media(max-width:480px){
     header{
