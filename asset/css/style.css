@@ -24,3 +24,25 @@
     src: url('../fonts/Montserrat/static/Montserrat-ExtraBold.ttf');
 }
 
+*{
+    font-family: "Montserrat Regular";
+}
+.font-bold{
+    font-family: 'Montserrat Bold';
+}
+.font-medium{
+    font-family: 'Montserrat Medium';
+}
+.font-semibold{
+    font-family: "Montserrat SemiBold";
+}
+.font-extrabold{
+    font-family: "Montserrat ExtraBold";
+}
+.bg-blue{
+    background: #23A6F0;
+}
+
+.cards {
+    transform: translateY(-50%);
+}
