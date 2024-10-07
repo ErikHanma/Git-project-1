@@ -24,6 +24,10 @@
     src: url('../fonts/Montserrat/static/Montserrat-ExtraBold.ttf');
 }
 
+body {
+    background: #fafafa;
+}
+
 *{
     font-family: "Montserrat Regular";
 }
@@ -46,3 +50,22 @@
 .cards {
     transform: translateY(-50%);
 }
+.advantage{
+    background: white;
+  }
+  
+  @media(max-width:480px){
+    header{
+      background: white;
+    }
+    .header__block{
+      gap: 2px !important;
+    }
+    .header_menu{
+      color: black !important;
+    }
+    .cards{
+      padding: 50px;
+      transform: translateY(-30%);
+    }
+  }
